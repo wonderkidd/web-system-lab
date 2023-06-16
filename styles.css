@@ -1,0 +1,102 @@
+/* Основные стили */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: "Helvetica", sans-serif;
+    color: #008080;
+}
+
+a {
+    color: #008080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для меню */
+.menu {
+    font-family: "Arial", sans-serif;
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    padding: 5px 10px;
+}
+
+.menu .active a {
+    font-weight: bold;
+}
+
+.menu .submenu {
+    display: none;
+    position: absolute;
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.menu .submenu li {
+    display: block;
+}
+
+/* Стили для контента */
+.content {
+    font-family: "Verdana", sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Стили для подвала */
+.footer {
+    font-family: "Arial", sans-serif;
+    background-color: #e6e6e6;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Стилизация кнопок перехода на подстраницы */
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #5e81ce;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 5px;
+    min-width: 200px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0e54c9;
+}
